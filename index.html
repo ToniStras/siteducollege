@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collège Saint Lepro</title>
+    <style>
+        /* Appliquer le fond blanc au corps */
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: white; /* Fond blanc */
+            font-family: 'Emblema 30', sans-serif; /* Police d'écriture Emblema 30 */
+            background-image: url('https://media.discordapp.net/attachments/1054124393212678244/1311042121977041048/330624-original.png?ex=67476a9f&is=6746191f&hm=dbf0a5b4c1ea9af684c6296940682b026006b26a8e55403cc49710dee6f7b6ad&=&format=webp&quality=lossless&width=687&height=386'); /* Lien de l'image en fond */
+            background-size: cover; /* Adapter l'image à la taille du site */
+            background-position: center; /* Centrer l'image */
+            background-repeat: no-repeat; /* Ne pas répéter l'image */
+            position: relative;
+        }
+
+        /* Centrer le texte au milieu de l'image */
+        .welcome-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Texte blanc */
+            font-size: 3rem; /* Taille du texte */
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre du texte pour plus de visibilité */
+            width: 100%;
+        }
+
+        /* Style pour le header (menu de navigation) */
+        header {
+            background: #6a0dad; /* Violet pour le header */
+            padding: 10px 20px;
+            text-align: center;
+            opacity: 1; /* Enlève la transparence */
+        }
+
+        /* Style pour les liens du menu */
+        nav a {
+            color: #ffffff; /* Texte blanc */
+            margin: 0 15px;
+            text-decoration: none; /* Pas de soulignement */
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Style des liens au survol */
+        nav a:hover {
+            color: #f0e68c; /* Jaune pâle au survol */
+        }
+
+        /* Style pour le footer */
+        footer {
+            margin-top: auto; /* Pousse le footer vers le bas */
+            padding: 15px 0;
+            background: #6a0dad; /* Violet 100% visible */
+            color: #ffffff; /* Texte par défaut en blanc */
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        /* Texte spécifique pour les droits d'auteur */
+        footer .copyright {
+            color: #d3d3d3; /* Gris clair pour "© 2024 Collège Saint Lepro. Tous droits réservés." */
+        }
+
+        /* Style des liens */
+        footer a {
+            color: #ffa500; /* Orange pour les liens */
+            text-decoration: none; /* Pas de soulignement */
+            font-weight: bold; /* Texte plus visible */
+        }
+
+        footer a:hover {
+            color: #f0e68c; /* Jaune pâle pour le hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- En-tête avec le menu de navigation -->
+    <header>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="notre-équipe.html">Notre Équipe</a> <!-- Lien vers la page Notre Équipe -->
+            <a href="nous-rejoindre.html">Nous Rejoindre</a> <!-- Lien vers la page Nous Rejoindre -->
+        </nav>
+    </header>
+
+    <!-- Texte au centre de l'image -->
+    <div class="welcome-text">
+        Bienvenue au Collège Saint Lepro!
+    </div>
+
+    <footer>
+        <span class="copyright">© 2024 Collège Saint Lepro. Tous droits réservés.</span> <br>
+        Rejoignez nos serveurs Discord : <a href="https://discord.gg/HNAc65MAda" target="_blank">Saint Lepro</a> | 
+        <a href="https://www.roblox.com/fr/games/112714548395574/College-Saint-Lepro-V-1" target="_blank">Jeu Roblox</a>
+    </footer>
+</body>
+</html>
